@@ -1,9 +1,304 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <title>This is the title of the webpage!</title>
+    <link rel="icon" type="image/png"  href="/assets/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+URLgenius App Deeplinks and QR Codes
+</title>
+    <meta name="description" content="
+Generate free deeplink URLs for your mobile app, or to your content in other apps (such as Instagram, Amazon, Facebook, Messenger, Google Maps, YouTube...) with URLgenius
+">
+      <link rel="stylesheet" media="all" href="/assets/launch-441741a16022315c9f5a4ad1f326a0b753ef5f353b4963de0d0cebc6e8c3c4a9.css" />
+      <script src="/assets/launch-954be4143a5b0a75db769b015f31cb870e9600df6eb1bebfaa3efa24b1550263.js"></script>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="udikrP4G1zIGWkUUHLO6DuU0JBqiJ551qY9EnvFxjQOoNHoLRAXL6hul9N6IRi9NYnl/7H2DpAYaaKDs8YIlzA==" />
   </head>
   <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+    <script>
+//<![CDATA[
+
+window.after_app = "";
+window.app = 'Custom';
+window.app_icon_url = 'https://s3.amazonaws.com/urlg_production/apps/icons/10/small_128/link.png?1488225149';
+window.app_scheme = 'com.onventures.padello://Padello/Match';
+window.app_store_url = "https://apps.apple.com/pt/app/padello/id1610399353";
+window.background_image_1440 = "";
+window.background_image_2880 = '';
+window.browser_family = "";
+window.custom_launch = 'true';
+window.custom_style = '';
+window.disable_launch = "false";
+window.domain = '';
+window.download_app = "";
+window.download_app_url = "";
+window.fallback_destination = 'app_store';
+window.fallback_url = "";
+window.first_try_url = "";
+window.hit_update_path = '/api/internal/hits/20c58879caaf11de';
+window.hit_update_qs_update_path = '/api/internal/hits/20c58879caaf11de/qs_update';
+window.ios_delay = '0.1';
+window.ios_facebook = "";
+window.launch_url = 'https://urlgeni.us/Padello/ios';
+window.link_id = "3626644";
+window.mobile_web = 'https://Padello/Match?MatchId=123';
+window.os_family = 'other';
+window.respect_link_fallback_options_on_choice_page = 'false';
+window.whitelabel = 'true';
+window.turn_off_fallback = '';
+window.send_cookies = '';
+window.cookie_local = '';
+window.session_id = '';
+window.visitor_id = '';
+window.referer = '';
+window.xpurpose = '';
+window.browser_language = '';
+window.sky_news_app_map = 'false';
+window.mercury_oculus_android_app_map = 'false';
+
+
+//]]>
+</script>
+
+
+<div class="" id='choice-section' style='display:none'>
+    <div class="dumbBoxWrap">
+      <div class="dumbBoxOverlay"> </div>
+      <div class="vertical-offset">
+        <div class="appBox" style="">
+          <a id="app-button" class="button app" href="com.onventures.padello://Padello/Match" style=" ">
+            <div class="app-img-wrap"><img id="app-img" class="app-img" src='https://s3.amazonaws.com/urlg_production/apps/icons/10/small_128/link.png?1488225149' style=""></div>
+            <span id="app-text" style="">Open in App</span>
+          </a>
+
+          <a id="browser-button" class="button browser" href="https://Padello/Match?MatchId=123" style="">
+            <span id="browser-text" style="">Open in Browser</span>
+          </a>
+
+
+        </div>
+      </div>
+    </div>
+        <div id = "choicefooter">
+      <div class="footer_area"><!--START FOOTER-->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div id="fspacing" >
+                <div class="footer text-center"><!--FOOTER-->
+                <p><a id="choice_page_link_to_urlg" href="https://app.urlgeni.us?utm_source=Padello&amp;utm_medium=footer&amp;utm_campaign=btyb" target="_blank"><img width="136px" alt="Generate free deeplink URLs for your mobile app, or to your content in other apps (such as Instagram, Amazon, Facebook, Messenger, Google Maps, YouTube...) with URLgenius" src="/assets/logo-tracking-1c06e24709249c1d3bc9ab419e6ae5838e86eb7bd9068949af5dff7771b7b90e.png" /><a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+<a id="hidden" href="com.onventures.padello://Padello/Match" />
+
+<script type="text/javascript">
+    window.send_cookies = '';
+window.cookie_local = '';
+window.session_id = '';
+window.visitor_id = '';
+window.referer = '';
+window.xpurpose = '';
+window.browser_language = '';
+window.xforwardfor = '';
+window.tapid = '';
+window.current = '';
+window.uniq_id = '';
+window.simple_url = 'https://Padello/Match?MatchId=123';
+
+window.simple_url = window.simple_url.replaceAll('&amp',"&").replaceAll("&amp;", "&").replaceAll("&;", "&")
+function getCookie(name) {
+    return (document.cookie.match('(^|;) *'+name+'=([^;]*)')||[])[2];
+}
+
+
+
+function cookieParser(){
+  if(window.tapid.length > 0){
+    return window.tapid
+  }
+  var cookie = getCookie("utag_main")
+  if (typeof cookie!=='undefined' && cookie.length > 0){
+    return cookie
+  }else{
+    return "ug" +  window.uniq_id
+  }
+}
+
+function param_appender(input_url){
+  var cp = cookieParser()
+
+  if( input_url.indexOf("?") > -1){
+    var test = input_url + "&ugclid=" + window.uniq_id+ "&tvid="+cp
+    return(test) 
+  }else{
+     return(input_url+"?" + "ugclid=" + window.uniq_id+ "&tvid="+cp) 
+  }
+}
+
+function urlCreator(input){
+   if(window.send_cookies== 'true'){
+    return param_appender(input)
+  }else{
+    return input
+  }
+}
+
+  var isMobile = {
+    Android: function() {
+      return /Android/i.test(navigator.userAgent);
+    },
+    BlackBerry: function() {
+      return /BlackBerry/i.test(navigator.userAgent);
+    },
+    iOS: function() {
+      return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+    },
+    Windows: function() {
+      return /IEMobile/i.test(navigator.userAgent);
+    },
+    any: function() {
+      return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Windows());
+    }
+  };
+
+  function ajaxRequest() {
+    var activexmodes = ["Msxml2.XMLHTTP", "Microsoft.XMLHTTP"] //activeX versions to check for in IE
+    //Test for support for ActiveXObject in IE first (as XMLHttpRequest in IE7 is broken)
+    if (window.ActiveXObject) {
+      for (var i = 0; i < activexmodes.length; i++) {
+        try {
+          return new ActiveXObject(activexmodes[i])
+        } catch (e) {
+          //suppress error
+        }
+      }
+    } else if (window.XMLHttpRequest) {
+      // if Mozilla, Safari etc
+      return new XMLHttpRequest()
+    } else {
+      return false
+    }
+  }
+
+  function sendAppInstalled(values) {
+    var mypostrequest = new ajaxRequest();
+    var url = '';
+
+    if (window.fallback_destination === "mobile_web") {
+      url = window.hit_update_qs_update_path + "?app_opened=" + values.app_opened + "&referrer=" + document.referrer;
+    } else {
+      url = window.hit_update_qs_update_path + "?app_opened=" + values.app_opened + "&app_downloaded=" + values.app_downloaded + "&referrer=" + document.referrer
+    }
+
+    if(window.send_cookies== 'true'){
+        
+
+window.send_cookies = '';
+window.cookie_local = '';
+window.session_id = '';
+window.visitor_id = '';
+window.referer = '';
+window.xpurpose = '';
+window.browser_language = '';
+window.xforwardfor = '';
+window.tapid = ''
+window.current = ''
+window.uniq_id = ''
+
+var cookierequest = new ajaxRequest();
+
+function getCookie(name) {
+  const value = `; ${document.cookie}`;
+  const parts = value.split(`; ${name}=`);
+  if (parts.length === 2) return parts.pop().split(';').shift();
+}
+
+if(window.send_cookies== 'true'){
+  paramPayload = [{ 'visitor_id': window.visitor_id, 'session_id': window.session_id, 'app_scheme': window.app_scheme, 'app_store_url': window.app_store_url, 'mobile_web': window.mobile_web, 'fallback_destination': window.fallback_destination, 'dom_url': document.URL, 'referer': window.referer, 'cookies': document.cookie, 'app_opened': values.app_opened, 'app_downloaded': values.app_downloaded, 'xpurpose': window.xpurpose, 'browser_language': window.browser_language, 'xforwardfor': window.xforwardfor, 'tapid': window.tapid, 'utag_main': getCookie("utag_main"), 'current_url': window.current, 'sending_url': urlCreator(url), 'uniq_id': window.uniq_id}]
+  cookierequest.open("PUT", window.cookie_local);
+  cookierequest.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+  cookierequest.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+  cookierequest.send(encodeURIComponent(JSON.stringify(paramPayload)));
+}
+
+    }
+    mypostrequest.open("GET", url, true);
+    mypostrequest.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    mypostrequest.send();
+  
+  }
+
+  // Check if app-store exists in the alunch url
+  // Then go to that otherwise, go to the app_scheme
+  if (window.app_scheme) {
+    if (isMobile.iOS() || !window.sky_news_app_map || !window.mercury_oculus_android_app_map) {
+      window.location = urlCreator(window.app_scheme);
+    } else {
+      document.getElementById('hidden').click();
+    }
+  } else {
+    window.location = urlCreator(window.mobile_web);
+  }
+
+  let delay = 100;
+
+  if (isMobile.iOS()) {
+    delay = window.ios_delay * 1000;
+  }
+
+  setTimeout(() => {
+    sendAppInstalled({
+      app_opened: Boolean(window.app_scheme).toString(),
+      app_downloaded: "false"
+    });
+
+    if (window.turn_off_fallback === 'false') {
+      $('#choice-section').css("display", "block");
+    };
+  }, delay + 2000);
+
+  setTimeout(function() {
+    if (window.fallback_destination === "mobile_web") {
+      sendAppInstalled({
+        app_opened: "false",
+        app_downloaded: "false"
+      });
+
+      window.location = urlCreator(window.mobile_web);
+    }
+
+    else if (window.fallback_destination === "app_store") {
+      sendAppInstalled({
+        app_opened: "false",
+        app_downloaded: "true"
+      });
+
+      if (isMobile.iOS()) {
+        app_downloaded: "true";
+
+        // NOTE: Check if the orignal URL already has query parameters on the string
+        // if so, then we tack on the our params otherwise, start the query string
+        if(window.location.search) {
+          window.location.search = urlCreator(window.location.search + '&app-store=true');
+
+        } else {
+          window.location.search = urlCreator(window.location.search + '?app-store=true');
+        }
+      } else {
+        window.location = urlCreator(window.app_store_url);
+      }
+    }
+  }, delay);
+</script>
+
+<input type="hidden" name="background_image_1440" id="background_image_1440" />
+
   </body>
 </html>
